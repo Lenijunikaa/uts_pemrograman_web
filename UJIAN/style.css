@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1208px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(wbsgrup.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.iconn{
+    width: 200px;
+    float: left;
+    height: 70px;
+    top: 179px;
+    left: 115px;
+    position: absolute;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid goldenrod;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: goldenrod;
+    border: 2px solid goldenrod;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+.container .adresinfo .kanan{
+    width: 255px;
+    padding: 20px;
+    font-family: Arial;
+    color: whitesmoke;
+    text-align: justify;
+    position: absolute;
+    left: 650px;
+    top: 155px;
+}
+.container .adresinfo .kiri{
+    width: 255px;
+    display: flex;
+    padding: 20px;
+    padding-top: 60px;
+    font-family: Arial;
+    position: absolute;
+    left: 900px;
+    color: whitesmoke;
+    text-align: justify;
+    top: 155px;
+}
+.nav h1{
+    font-family: Comic Sans MS;
+    font-size: 33px;
+    left: 50px;
+    position: absolute;
+}
+.containerr{
+    width: 200px;
+    height: 350px;
+    top: 1420px;
+    left: 50px;
+    position: absolute;
+}
+.containerr .btn {
+    width: 90px;
+    height: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    background-color: goldenrod;
+    border-radius: 3px;
+    margin: -23px;
+    padding: 1px;
+    left: 400px;
+    position: absolute;
+    font-family: Comic Sans MS;
+    transition: 0.4s ease-in-out;
+}
+.containerr .btn:hover{
+    color: #000;
+}
+.containerrr .text1{
+    width: 200px;
+    padding: 10px;
+    padding-top: 20px;
+    position: absolute;
+    left: 150px;
+    color: #000;
+    text-align: justify;
+    font-family: Comic Sans MS;
+}
+.containerrr .text1 .icon1{
+    width: 200px;
+    float: left;
+    height: 70px;
+    top: 40px;
+    left: -120px;
+    position: absolute;
+}
+.containerrr .text2{
+    width: 250px;
+    padding: 10px;
+    padding-top: 20px;
+    position: absolute;
+    left: 570px;
+    color: #000;
+    text-align: justify;
+    font-family: Comic Sans MS;
+}
+.containerrr .text2 .icon2{
+    width: 150px;
+    float: left;
+    height: 70px;
+    top: 50px;
+    left: -120px;
+    position: absolute;
+}
+.containerrr .text3{
+    width: 200px;
+    padding: 10px;
+    padding-top: 20px;
+    position: absolute;
+    left: 985px;
+    color: #000;
+    text-align: justify;
+    font-family: Comic Sans MS;
+}
+.containerrr .text3 .icon3{
+    width: 150px;
+    float: left;
+    height: 70px;
+    top: 25px;
+    left: -120px;
+    position: absolute;
+}
+.form{
+    width: 100px;
+    height: 100px;
+    top: 1080px;
+    left: 50px;
+    position: absolute;
+}
+.containner .before{
+    width: 400px;
+    padding: 10px;
+    color: #000;
+    text-align: justify;
+    position: absolute;
+    left: 750px;
+    top: 1060px;
+    font-size: 15px;
+    font-family: Comic Sans MS;
+}
+.column1, .column2, .column3, .column4{
+    width: 80px;
+    float: left;
+    margin: 10px;
+    top: 1080px;
+    border: 3px solid goldenrod;
+    color: brown;
+    font-family: Comic Sans MS;
+    overflow: auto;
+    width: 100px;
+    font-size: small;
+    padding: 3.5px;
+    height: 170px;
+}
+.column1 p:hover{
+    color: rgb(32, 150, 218);
+}
+.column2 p:hover{
+    color: rgb(32, 150, 218);
+}
+.column3 p:hover{
+    color: rgb(32, 150, 218);
+}
+.column4 p:hover{
+    color: rgb(32, 150, 218);
+}
+.bawah{
+    width: 1100px;
+    margin-right: 900px;
+    font-family: Comic Sans MS;
+    font-size: 1px;
+    color: goldenrod;
+}
+.bawah ul li:hover{
+    color: rgb(32, 150, 218);
+}
+.containnerr .about{
+    width: 400px;
+    padding: 10px;
+    color: #000;
+    text-align: justify;
+    position: absolute;
+    left: 750px;
+    top: 1400px;
+    font-size: 15px;
+    font-family: Comic Sans MS;
+}
+.icons{
+    display: inline;
+    position: absolute;
+    left: 740px;
+    top: 1660px;
+}
+.icons a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.icons ion-icon{
+    color: goldenrod;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 2px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+    color: rgb(32, 150, 218);
+}
